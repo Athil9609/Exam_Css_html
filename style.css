@@ -1,0 +1,66 @@
+.hero{
+    background-image: url("./images/hero-img.jpg");
+}
+.cards1 .card{
+    border: 0px;
+    background-color: rgba(128, 128, 128, 0.104);
+    text-align: center;
+    padding-top: 3%;
+    cursor:pointer ;
+    transition: all .3s;
+
+    i{
+        color: orange !important;
+    }
+    p{
+        color: grey !important;
+    }
+}
+.cards1 .card:hover{
+    box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.cards2 .card{
+    border: 1px solid orange !important;
+  transition: all .3s;  
+}
+.cards2 .card:hover{
+
+    scale: 1.1;
+    box-shadow: 0 4px 8px 0 rgba(255, 166, 0, 0.512), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+
+/* .hero2 .row .col-7{
+    p{
+        display: block;
+
+    }
+
+   
+}
+.hero2 .apple{
+    display: none;
+} */
+@media (min-width:320px)and(max-width:500px){
+    /* .hero2{
+        p{
+            display: none;
+
+        }
+    } */
+    .hero2 .apple{
+        display: block;
+    }
+    
+} 
+@media (min-width:1000px)and(max-width:1400px){
+.apple{
+    width: 200px;
+    img{
+        width: 200px;
+    }
+}
+}
+
